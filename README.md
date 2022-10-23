@@ -1,2 +1,4 @@
-# Image_Security_Python_Project
- Image Security is about protecting the image from intruders...
+# Image Security Python Project
+
+To run this project in your computer
+1. Download the .zip file.
