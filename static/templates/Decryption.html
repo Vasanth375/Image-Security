@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="typewriter">
+<h2>{{ title }}</h2>
+<h3>{{ message }}</h3>
+<br><br>
+</div>
+
+<div>
+<form action="/Decrypted" method="post" enctype="multipart/form-data">
+	
+        <input type="file" allign="center" name="file" /><br>
+        <input type="number" name="key" value="" /><br><br>
+        <center><input type="submit" value="Decrypt"><br></center>
+<br><br><br><br><br><br><br><br>
+</div>
+
+
+{% endblock %}
